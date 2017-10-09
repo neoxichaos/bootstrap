@@ -1,5 +1,69 @@
+
+/* Menu */
+#menu
+{
+    background-color: #636363;
+    
+}
+
+.navbar
+{
+    background-color: #636363;
+}
+.bg-dark
+{
+    background-color: #636363 !important;
+}
+
 /* About */
 #about
 {
-    background-color: rgba(0,0,0);
+    background-color: white;
+}
+
+/* Banner */
+#banner
+{
+    margin-top: -1px;
+    background-color: #636363;
+    height: 570px;    
+}
+
+/* Number */
+#number
+{
+    border: 1px solid black;
+}
+
+/* Best projet */
+#best-projet
+{
+    
+}
+#best-projet .element
+{
+    border: 1px solid black;
+}
+/* Testimonial */
+#testimonial
+{
+    border: 1px solid black;
+}
+
+/* Client */
+#client
+{
+    border: 1px solid black;
+}
+
+/* Last blog */
+#last-blog
+{
+    border:1px solid black;
+}
+
+/* Contact */
+#contact
+{
+    border: 1px solid black;
 }

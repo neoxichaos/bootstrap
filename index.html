@@ -27,168 +27,219 @@
         <meta name="author" content="">
     <link rel="icon" href="image/favicon.ico">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>maquette Bootstrap</title>
+    <title>Snow</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Custom styles for this template -->
     <link href="navbar.css" rel="stylesheet">
   </head>
 
   <body>
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-        <nav class="navbar navbar-dark bg-dark">
-          <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <header>
+        <div class="container-fluid" id="menu">
+            <nav class="navbar navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
 
-              <div class="collapse navbar-collapse" id="navbarsExample01">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Lien</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COURS</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                      <a class="dropdown-item" href="#">html/css</a>
-                      <a class="dropdown-item" href="#">maquette</a>
-                      <a class="dropdown-item" href="#">exercice</a>
-                    </div>
-                  </li>
-                </ul>
-                <form class="form-inline my-2 my-md-0">
-                  <input class="form-control" type="text" placeholder="Rechercher" aria-label="Search">
-                </form>
-              </div>
-            </nav>
-                </div>
-            </div>
+                      <div class="collapse navbar-collapse" id="navbarsExample01">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Lien</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COURS</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                              <a class="dropdown-item" href="#">html/css</a>
+                              <a class="dropdown-item" href="#">maquette</a>
+                              <a class="dropdown-item" href="#">exercice</a>
+                            </div>
+                          </li>
+                        </ul>
+                        <form class="form-inline my-2 my-md-0">
+                          <input class="form-control" type="text" placeholder="Rechercher" aria-label="Search">
+                        </form>
+                      </div>
+                    </nav>
         </div>
     </header>       
             <!-- Main -->
-            <main class="container"><!-- Conteneur avec margin-left et margin-right (containeur-fluid = sans marge) -->
-                <div class="row"> <!-- Première ligne "Banner" -->
+    <main><!-- Conteneur avec margin-left et margin-right (containeur-fluid = sans marge) -->
+        <div class="container-fluid" id="banner">
+            <div class="container">
+                <section class="row"> <!-- Première ligne "Banner" -->
                     <section class="col-lg-12"> <!-- Colonne de 12/12 donc 100% -->
-                    
-                    </section>
-                </div>
-                
-                <div class="row"> <!-- Deuxième ligne "About" -->
-                    <section class="col-lg-12">
                         <h4>NEW BRANDING AGENCY</h4>
                         <h2>We are about to change the way</h2>
-                        <h2>you publish on web</h2>
+                        <h2>you publish on web</h2>                   
                     </section>
-                </div>
-                
-                <div class="row"> <!-- Troisème ligne "Number" -->
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid" id="about">
+            <div class="container">                
+                <section class="row" > <!-- Deuxième ligne "About" -->
                     <section class="col-lg-12">
-                        <h2>About Our Agency</h2>
+                        <h4>About Our Ageny</h4>
                         <p>
-                            We are a new design studio based in USA. we have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps. Clever use of technology and lean processes enable us to work faster ans smarter.                            
+                            We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps. clever use of technology and lean processes enable us to word faster and smarter.
                         </p>
-                        <img src="assets/image/signature.png" alt="signature">
+                        <img src=('image/signature.png') alt="signature" >
                     </section>
-                </div>
-                
-                <div class="row"> <!-- Quatrième ligne "Best-projet" -->
-                    <!-- Projet completed -->
-                    <section class="col-lg-3">
+                </section>
+            </div>
+        </div> 
+        <div class="container-fluid" id="number">
+            <div class="container">                   
+                <section class="row"> <!-- Troisème ligne "Number" -->
+                    <section class="col-lg-3 element">
                         <i class="fa fa-briefcase" aria-hidden="true"></i>
                         <span>548</span>
                         <p>PROJECTS COMPLETED</p>
                     </section>
                     <!-- Working hours -->
-                    <section class="col-lg-3">
+                    <section class="col-lg-3 element">
                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                         <span>1465</span>
                         <p>WORKING HOURS</p>
                     </section>
                     <!-- Positive feedback -->
-                    <section class="col-lg-3">
+                    <section class="col-lg-3 element">
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <span>612</span>
                         <p>POSITIVE FEEDBACKS</p>
                     </section>
                     <!-- Happy clients -->  
-                    <section class="col-lg-3">
+                    <section class="col-lg-3 element">
                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                         <span>735</span>
                         <p>HAPPY CLIENTS</p>
                     </section>
                     <!-- ################################### -->
-                    <!-- #col--lg-3 x 4 div = col 12 = 100%# -->
-                </div>
-                
-                <div class="row"> <!-- Cinquième ligne "Testimonial" -->
-                    <section class="col-lg-12">
+                    <!-- #col--lg-4 x 3 div = col 12 = 100%# -->
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid" id="best-projet">
+            <div class="container">                                   
+                <section class="row"> <!-- Quatrième ligne "Best-projet" -->
+                    <!-- Projet completed -->
+                    <div class="col-lg-12">
+                        <h4>Best Projects</h4>
+                        <p>
+                            Donec orci sem, pretium ac dolor et, faucibus faucibus maris. Etiam, pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+                        </p>
+                    </div>
+                </section>
+                <section class="row">
+                    <section class="col-lg-4 element">
+
+                    </section>
+                    <!-- Working hours -->
+                    <section class="col-lg-4 element">
+
+                    </section>
+                    <!-- Positive feedback -->
+                    <section class="col-lg-4 element">
                         
                     </section>
-                </div>
-                
-                <div class="row"> <!-- Sixième ligne "Client" -->
+                    <!-- ################################### -->
+                    <!-- #col--lg-3 x 4 div = col 12 = 100%# -->
+                </section>
+             </div>
+        </div>
+        <div class="container-fluid" id="testimonial">
+            <div class="container">               
+                <section class="row"> <!-- Cinquième ligne "Testimonial" -->
+                    <section class="col-lg-12" >
+                        testimonial
+                    </section>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid" id="client">
+            <div class="container">             
+                <section class="row"> <!-- Sixième ligne "Client" -->
                     <section class="col-lg-12">
                         <p>"Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next on asap."</p>
                         <p>MICHAEL HPOKINS</p>
                     </section>
-                </div>
-                  
-                <div class="row"> <!-- Septième ligne "Last blog" -->
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid" id="last-blog">
+            <div class="container">                 
+                <section class="row"> <!-- Septième ligne "Last blog" -->
                     <section class="col-lg-12">
-                    
-                    </section>
-                        <!-- Première ligne de la huitième ligne "Last blog -->
-                        <div class="col-lg-12">
                         <h2>Latest Blog</h2>
                         <p>
                         Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus.
                         Vestibulum gravida volutpat ipsum non ultrices.
-                        </p>
-                        </div>
-                    
-                    
-                        
-                </div>
-                  
-                <div class="row"> <!-- Huitième ligne "Contact" -->
+                        </p>  
+                    </section>
+                    <section class="col-lg-4">
+                        <div class="panel-group well">
+                            <div class="panel panel-default">
+                            <div class="panel-body">Panel Content</div>
+                            </div>
+                        </div>                           
+                    </section> 
+                    <section class="col-lg-4">
+                        <div class="panel-group well">
+                            <div class="panel panel-default">
+                            <div class="panel-body">Panel Content</div>
+                            </div>
+                        </div>  
+                    </section>
+                    <section class="col-lg-4">
+                        <div class="panel-group well">
+                            <div class="panel panel-default">
+                            <div class="panel-body">Panel Content</div>
+                            </div>
+                        </div>  
+                    </section>      
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid" id="contact">
+            <div class="container">                          
+                <section class="row"> <!-- Huitième ligne "Contact" -->
                     <div class="col-lg-12">
-                        <div class="col-lg-5">
-                            <h2>Contact Info</h2>
+                        <section class="col-lg-5">
+                            <h2>Contact Info :</h2>
+                            <p>
+                                Praesent interdum congue mauris, et fringella lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctorquam consectetur
+                            </p>
                             
                             
-                        </div>
+                        </section>
                     </div>
-                </div>                                    
-                
-                <footer class="row"><!-- Pied de page -->
-                    <div class="col-lg-12">
-                        <div class="col-lg-4 teste">
+                </section>                           
+            </div>
+        </div>       
+        <div class="container-fluid" id="footer">
+           <div class="container">                
+                <footer class="row"><!-- Pied de page -->               <div class="col-lg-5 teste">
                             fghj
                         </div>
-                        <div class="col-lg-4 teste">
+                        <div class="col-lg-7 teste">
                         fghjk
                         </div>
-                        <div class="col-lg-4 teste">
-                            ghjk
-                            
-                        </div>
-                    
-                    </div>
                 </footer>
-            </main>
+            </div>
+        </div>
+    </main>
         <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
