@@ -26,13 +26,23 @@
 {
     margin-top: -1px;
     background-color: #636363;
-    height: 570px;    
+    height: 570px; 
+    padding-top: 220px;
+}
+#banner section
+{
+    text-align: center;
+    color:white;
 }
 
 /* Number */
 #number
 {
-    border: 1px solid black;
+    background-image: url('../image/background-number.png');
+}
+#number section
+{
+    color:white;
 }
 
 /* Best projet */
@@ -42,12 +52,12 @@
 }
 #best-projet .element
 {
-    border: 1px solid black;
+
 }
 /* Testimonial */
 #testimonial
 {
-    border: 1px solid black;
+    background-image: url('../image/background-number.png');
 }
 
 /* Client */
