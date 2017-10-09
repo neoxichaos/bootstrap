@@ -1,0 +1,23 @@
+
+
+.bleu{
+	background-color: white;
+	height: 100px;
+}
+
+.rouge{
+	background-color: pink;
+	height: 100px;
+}
+
+header{
+	height: 670px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.navbar .navbar-dark{
+    background-color: aquamarine;
+    height: 270px;
+}
+
+     
