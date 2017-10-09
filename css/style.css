@@ -65,6 +65,9 @@
 #testimonial
 {
     background-image: url('../image/background-number.png');
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* Client */
