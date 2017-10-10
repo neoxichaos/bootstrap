@@ -130,6 +130,18 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+#testimonial .premier
+{
+    color:white;
+    font-size: 24px;
+    font-family:Myriadp pro ;
+    font-style: italic;
+}
+#testimonial .deuxieme
+{
+    color: white;
+    font-size: 14px;
+}
 
 /* Client */
 #client
