@@ -42,7 +42,13 @@ body{
     text-align: center;
     color:white;
 }
-
+.fa-chevron-down{
+    font-size: 30px;
+    margin-top: 100px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50%;
+}
 /* Number */
 #number
 {
@@ -313,6 +319,7 @@ body{
     color:white;
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: -16px;
 }
 hr{
     background-color: white;
