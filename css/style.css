@@ -134,7 +134,9 @@
 /* Client */
 #client
 {
-    border: 1px solid black;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
 }
 
 /* Last blog */
