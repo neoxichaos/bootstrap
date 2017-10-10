@@ -249,10 +249,71 @@ body{
     border-radius:0px;
 }
 
-.debut  
-  {
-    background-image: url('image/background-number.png');
+/*####PARTIE FOOTER####*/
+.debut{
+    background-image: url(../image/background-number.png);
    
     
 
+}
+.jaune{
+    
+    height: 480px;
+    text-align: left;
+
+}
+
+.bleu{
+    height: 412px;
+    color: white;
+    padding-top: 60px;
+    padding-left: 0px;
+}
+
+#ali{
+    margin-top: 45px;
+}
+#ali1{
+    margin-top: 35px;
+}
+
+#ali3{
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+
+.test{
+    border: 1px solid white;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+.cent{
+
+    margin-top: 35px;
+    text-align: center;
+}
+
+.fa-twitter{
+    font-size: 15px;
+}
+
+
+.ligne{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    border-top: 2PX solid yellow;
+
+}
+#foot{
+    color:white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+hr{
+    background-color: white;
 }
