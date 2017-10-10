@@ -1,3 +1,6 @@
+body{
+    font-family:Myriad Pro ;
+}
 /* Menu */
 #menu
 {
@@ -109,6 +112,8 @@
     height: 250px;
     background-color: white;
     margin-bottom: 30px;
+    text-align: center;
+    padding-top: 95px;
 }
 #best-projet .element-2 .block-3
 {
@@ -169,7 +174,52 @@
 /* Last blog */
 #last-blog
 {
-    border:1px solid black;
+    background-color: #f6f6f6; 
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#last-blog .titre
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#last-blog .panel-body
+{
+    background-color: white;
+    padding:25px;
+}
+#last-blog .groupe-premier
+{
+    display: flex;
+    margin-bottom: 65px;
+}
+#last-blog .groupe_un
+{
+    
+}
+#last-blog .groupe_un .background
+{
+    height: 240px;
+    background-color: lightgray;
+}
+
+#last-blog .groupe_deux
+{
+    
+}
+#last-blog .groupe_deux .background
+{
+    height: 240px;
+    background-color: lightgray;
+}
+#last_block .groupe_trois
+{
+    
+}
+#last-blog .groupe_trois .background
+{
+    height: 240px;
+    background-color: lightgray;
 }
 
 /* Contact */
