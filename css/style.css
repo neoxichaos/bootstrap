@@ -313,6 +313,7 @@ body{
     color:white;
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: -16px;
 }
 hr{
     background-color: white;
