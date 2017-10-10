@@ -1,4 +1,3 @@
-
 /* Menu */
 #menu
 {
@@ -45,11 +44,25 @@
 #number
 {
     background-image: url('../image/background-number.png');
+    height: 255px;
+    color: white;
 }
-#number section
+#number .chiffre
 {
-    color:white;
-    text-align: center;
+    font-size: 18px;
+}
+#number .texte
+{
+    font-size: 14px;
+}
+
+#number .element{
+
+    margin-top: 100px;
+
+}
+#number i{
+    font-size: 48px;
 }
 
 /* Best projet */
@@ -141,6 +154,8 @@
 {
     color: white;
     font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 100px;
 }
 
 /* Client */
