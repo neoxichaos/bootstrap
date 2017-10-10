@@ -191,7 +191,7 @@ body{
 #last-blog .groupe-premier
 {
     display: flex;
-    margin-bottom: 65px;
+    padding-bottom: 65px;
 }
 #last-blog .groupe_un
 {
@@ -225,5 +225,5 @@ body{
 /* Contact */
 #contact
 {
-    border: 1px solid black;
+    padding-top: 100px;
 }
