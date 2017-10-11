@@ -2,6 +2,11 @@ body{
     font-family:Myriad Pro ;
     background-image: url(../image/background_nav.jpg)
 }
+h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: bold;
+}
 /* Menu */
 #menu
 {
@@ -16,6 +21,22 @@ body{
 .bg-dark
 {
     background-color: transparent!important;
+}
+
+#font1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+#font2{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+#font3{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-style: italic;
 }
 
 /* About */
